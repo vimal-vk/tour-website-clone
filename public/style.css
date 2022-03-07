@@ -4,6 +4,12 @@ body {
   background-color: whitesmoke;
 }
 
+.scroll-to-top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
 h1,
 h2,
 h3 {
@@ -215,6 +221,10 @@ input[type="date"] {
   margin-top: 20px;
 }
 
+#blog h1 {
+  color: #0adef8;
+}
+
 .about-container {
   margin: 30px;
   display: grid;
@@ -282,7 +292,7 @@ input[type="date"] {
 }
 
 .carousel-caption {
-  color: rgb(217, 255, 0);
+  color: white;
   font-weight: bolder;
   font-size: 20px;
   text-shadow: 0 0 5px #fff, 0 0 5px #000;
